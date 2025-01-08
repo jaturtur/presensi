@@ -43,4 +43,5 @@ class Admin extends BaseController
     session()->setFlashdata('pesan', 'Data Berhasil Diupdate !!!');
     return redirect()->to('Admin/setting');
    }
+   
 }

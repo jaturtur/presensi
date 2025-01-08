@@ -99,6 +99,22 @@ scratch. This page gets rid of all links and provides the needed markup only.
               </p>
             </a>
           </li>
+          <li class="nav-item">
+          <a href="<?= base_url('Jabatan') ?>" class="nav-link <?= ($menu == 'jabatan') ? 'active' : '' ?>">
+              <i class="nav-icon fas fa-th-list"></i>
+              <p>
+                Jabatan
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="<?= base_url('Admin/setting') ?>" class="nav-link">
+              <i class="nav-icon fas fa-th-list"></i>
+              <p>
+                Krayawan
+              </p>
+            </a>
+          </li>
           <li class="nav-item menu-open">
             <a href="#" class="nav-link active">
               <i class="nav-icon fas fa-tachometer-alt"></i>

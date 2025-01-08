@@ -58,6 +58,7 @@ class Filters extends BaseConfig
             'filteruser' => [
                 'except' => [
                     'Admin', 'Admin/*',
+                    'Jabatan', 'Jabatan/*',
                 ],
             ],
         ],
